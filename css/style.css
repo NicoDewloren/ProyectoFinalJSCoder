@@ -1,0 +1,39 @@
+.letra-titulos {
+  font-family: Macondo;
+}
+
+.letra {
+  font-family: Poppins;
+}
+
+.color_header {
+  background-color: #f26419;
+}
+
+.titulo_principal {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.subtitulo_principal {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.padding_footer-img {
+  margin-right: 1rem;
+}
+
+.card-precio {
+  font-size: 1.5rem;
+}
+
+.card-descripcion {
+  margin-top: 1rem;
+}
+.card-titulo {
+  font-size: 1.5rem;
+  background-color: #f26419;
+  border-radius: 25px;
+  margin-top: 2rem;
+}

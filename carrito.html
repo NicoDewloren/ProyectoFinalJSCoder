@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaming World - CoderJS</title>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&family=Poppins:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css nat -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CSS BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!--  header  -->
+    <header class="container-fluid color_header  p-4">
+        <div class="container">
+      <div class="row">
+        <div class="col-md-11">
+        <nav class="navbar navbar-expand-lg container">       
+            <a class="navbar-brand" href="#"
+              ><img src="img/logo-gw.jpg" alt="Logo" width="28"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link letra" href="index.html">Productos</a>
+                <a class="nav-link letra" href="#">Contacto</a>
+                <a class="nav-link letra" href="#">Nosotros</a>
+              </div>
+            </div>
+        
+        </div>
+        <div class="col-md-1">
+            <a href="carrito.html" id="carrito"></a>
+        </div>
+        </nav>
+      </div>
+    </div>
+    </header>
+
+    <!--  main  -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex-column text-center">
+            <h1 class="titulo_principal letra-titulos">Gaming World</h1>
+            <h3 class="subtitulo_principal letra text-start">
+              Productos seleccionados
+            </h3>
+          </div>
+          <div class="row" id="productos_carrito">
+            
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--  FOOTER  -->
+
+    <footer class="container-fluid color_header p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span class="letra"
+              >Todos los derechos reservados 2022 - Gaming World ®</span
+            >
+          </div>
+          <div class="col-md-6">
+            <p class="text-end">
+              <a href=""
+                ><img
+                  src="img/instagram.svg"
+                  alt="IG"
+                  width="28"
+                  class="padding_footer-img"
+              /></a>
+              <a href=""
+                ><img
+                  src="img/whatsapp.svg"
+                  alt="WP"
+                  width="28"
+                  class="padding_footer-img"
+              /></a>
+              <a href=""
+                ><img
+                  src="img/facebook.svg"
+                  alt="FB"
+                  width="28"
+                  class="padding_footer-img"
+              /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS NAT -->
+    <script src="js/productos.js"></script>   
+    <script src="js/funciones.js"></script>
+    <script src="js/carrito.js"></script>
+  </body>
+</html>
