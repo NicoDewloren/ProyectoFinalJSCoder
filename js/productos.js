@@ -54,10 +54,3 @@ function obtenerProductosLS() {
 function guardarProductosLS(productos) {
     localStorage.setItem("productos", JSON.stringify(productos))
 }
-function obtenerProductosCarrito() {
-    return JSON.parse(localStorage.getItem("carrito")) || [];
-}
-
-function guardarProductosCarrito(productos) {
-    localStorage.setItem("carrito", JSON.stringify(productos))
-}
