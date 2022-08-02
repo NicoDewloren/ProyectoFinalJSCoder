@@ -6,7 +6,7 @@ function mostrarProductos() {
   let contenidoCard = "";
 
   for (let producto of productos) {
-    contenidoCard += `<div class="col-md-4 mt-5 mb-5"
+    contenidoCard += `<div class="col-md-4 mt-5 mb-5 shadow"
         <div class="card ">
         <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
         <div class="card-body">

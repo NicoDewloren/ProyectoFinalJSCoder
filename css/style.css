@@ -47,3 +47,19 @@ footer {
   border-radius: 25px;
   margin-top: 2rem;
 }
+
+.shadow {
+  box-shadow: 1px 1px 43px -8px rgba(255, 106, 2, 0.75);
+  -webkit-box-shadow: 1px 1px 43px -8px rgba(255, 106, 2, 0.75);
+  -moz-box-shadow: 1px 1px 43px -8px rgba(255, 106, 2, 0.75);
+}
+
+.border-form {
+  border: 2px solid #f26419;
+  border-radius: 25px;
+  padding: 1.5rem;
+}
+
+.letra_validacion {
+  font-size: 0.8rem;
+}
