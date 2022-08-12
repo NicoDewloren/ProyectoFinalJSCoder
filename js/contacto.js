@@ -62,8 +62,8 @@ function dibujarContacto() {
 
     let contenido = `<div class="mt-3">
     <h3 class="text-center letra">Gracias por registrarte ${nombre} !</h3>
-    <p class="text-center mt-2"><img src=img/registro.png width="250"></p>
-                     <p class="letra">Ya estas en nuestra base de datos, vas a recibir en tu casilla de correo ${email} las mejores ofertas y promociones sobre nuestros productos!</p>
+    <p class="text-center mt-5"><img src=img/registro.png width="250"></p>
+                     <p class="letra">Ya estas en nuestra base de datos, vas a recibir en tu casilla de correo <b>${email}</b> las mejores ofertas y promociones sobre nuestros productos!</p>
                      </div>`
 
     respuesta.innerHTML = contenido
