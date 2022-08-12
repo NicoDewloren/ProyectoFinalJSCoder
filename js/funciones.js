@@ -49,6 +49,13 @@ function vaciarCarrito() {
     mostrarProductosDelCarrito();
     alertaLimpiarCarrito();
 }
+function vaciarCarritoSinAlert() {
+
+    localStorage.removeItem("carrito");
+    refreshBotonCarrito()
+    mostrarProductosDelCarrito();
+
+}
 
 
 

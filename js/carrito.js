@@ -19,19 +19,35 @@ function mostrarProductosDelCarrito() {
         </tr>`
             total += precio
         }
+
+        contenido += `</table>`
+
         contenido += `<table class="table mt-5">
-                     <tr class="row">
-                         <td class"=col-md-4 align-middle">&nbsp;</td>
-                         <td class"=col-md-4 align-middle"><b>Total a Pagar : $ ${total}</b></td>
-                         <td class"=col-md-4 align-middle"><a href="#" class="btn btn-success"> Finalizar Compra</a></td>
-                     </tr>
+                        <tr class="row">                      
+                            <td class="col-md-6 text-center"><b>Total a Pagar : $ ${total}</b></td>
+                            <td class="col-md-6 text-center"><a href="#" class="btn btn-success" id="finalizarCompra" onclick="finalizarCompra()"> Finalizar Compra</a></td>
+                        </tr>
                       </table>`
 
 
-        contenido += `</table>`
+
     }
     document.getElementById("productos_carrito").innerHTML = contenido;
 }
+
+
+function finalizarCompra() {
+
+    Swal.fire(
+        'Has finalizado la compra!',
+        'Muchas gracias por tu compra!',
+        'success'
+    )
+
+    vaciarCarritoSinAlert()
+
+}
+
 
 mostrarProductosDelCarrito();
 refreshBotonCarrito();
